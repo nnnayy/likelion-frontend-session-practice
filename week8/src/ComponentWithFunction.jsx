@@ -13,10 +13,12 @@ const ComponentWithFunction = ({name, favoriteColor, children}) => {
     );
 };
 
+//props 기본값 설정
 ComponentWithFunction.defaultProps = {
 	name: '홍길동'
 };
 
+//필수 props 지정 및 props 타입 지정 
 ComponentWithFunction.propTypes = {
 	name: PropTypes.string,
 	favoriteColor: PropTypes.string.isRequired

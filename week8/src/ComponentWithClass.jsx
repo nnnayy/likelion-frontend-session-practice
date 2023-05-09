@@ -15,10 +15,12 @@ class ComponentWithClass extends Component {
     }
 }
 
+//props 기본값 설정
 ComponentWithClass.defaultProps = {
     name: '홍길동'
 };
 
+//필수 props 지정 및 props 타입 지정 
 ComponentWithClass.propTypes = {
     name: PropTypes.string,
     favoriteColor: PropTypes.string.isRequired
