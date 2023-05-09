@@ -9,7 +9,7 @@ const App = () => {
     <Fragment>
       <ComponentWithFunction name="나예" favoriteColor="초록색">달곰이</ComponentWithFunction>
       <br />
-      <ComponentWithClass name="하린" favoriteColor="초록색">뽀미</ComponentWithClass>
+      <ComponentWithClass name="하린" favoriteColor="초록색">포미</ComponentWithClass>
       {/* <Like /> */}
     </Fragment>
   );
